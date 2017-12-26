@@ -1,0 +1,5 @@
+ask=input("Enter any words here and sepereate it with comma : ")
+store=ask.split(",")
+store.sort()
+last_outcome= ",".join(store)
+print(last_outcome)
